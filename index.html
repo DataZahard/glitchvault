@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlitchVault | The Open Source Armory by DataZahard</title>
+
+<meta name="description" content="GlitchVault: 100+ curated open-source apps and games. Fast downloads for Windows, Linux, and macOS. No tracking. No login.">
+<link rel="canonical" href="https://datazahard.github.io/glitchvault/">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:;">
+
+<meta property="og:title" content="GlitchVault | Open Source Armory">
+<meta property="og:description" content="Secure and fast open-source repository by DataZahard.">
+<meta property="og:url" content="https://datazahard.github.io/glitchvault/">
+<meta property="og:type" content="website">
+
+<style>
+:root { --p: #00ff9d; --bg: #0a0b10; }
+body { background: var(--bg); margin: 0; font-family: sans-serif; opacity: 0; animation: fadeIn 0.5s forwards; }
+@keyframes fadeIn { to { opacity: 1; } }
+.navbar { height: 70px; border-bottom: 1px solid #2a2f3a; display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; }
+.logo { color: var(--p); font-weight: bold; font-size: 1.5rem; }
+</style>
+
+<link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+<link rel="icon" type="image/png" sizes="192x192" href="images/icon-192.png">
+
+<link rel="icon" type="image/png" sizes="512x512" href="images/icon-512.png">
+
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+<div class="app-wrapper">
+<header class="navbar">
+<div class="logo">
+<i class="fa-solid fa-ghost"></i> GlitchVault
+</div>
+<nav class="nav-links">
+<button class="nav-btn active" data-tab="home">Hub</button>
+<button class="nav-btn" data-tab="apps">Software</button>
+<button class="nav-btn" data-tab="games">Games</button>
+<button class="nav-btn" data-tab="about">Intel</button>
+</nav>
+</header>
+
+<main id="main-content">
+<section id="home" class="tab-section active">
+<div class="hero">
+<h1>Unlock the <span class="highlight">Source</span></h1>
+<p class="subtitle">Curated. Open. Free. The ultimate repository for Linux, Windows, and macOS tools.</p>
+</div>
+
+<div class="stats-container">
+<div class="stat-card">
+<span class="stat-number">500+</span>
+<span class="stat-label">Tools</span>
+</div>
+<div class="stat-card">
+<span class="stat-number">100%</span>
+<span class="stat-label">Open Source</span>
+</div>
+<div class="stat-card">
+<span class="stat-number">Zero</span>
+<span class="stat-label">Cost</span>
+</div>
+</div>
+</section>
+
+<section id="apps" class="tab-section">
+<div class="controls-bar">
+<div class="search-wrapper">
+<i class="fa-solid fa-search search-icon"></i>
+<input type="text" id="appSearch" class="search-input" placeholder="Search software protocol...">
+</div>
+<select id="appOsFilter" class="filter-dropdown">
+<option value="all">All Systems</option>
+<option value="windows">Windows</option>
+<option value="linux">Linux</option>
+<option value="macos">macOS</option>
+</select>
+</div>
+<div id="appsList" class="grid-container">
+</div>
+</section>
+
+<section id="games" class="tab-section">
+<div class="controls-bar">
+<div class="search-wrapper">
+<i class="fa-solid fa-gamepad search-icon"></i>
+<input type="text" id="gameSearch" class="search-input" placeholder="Search game titles...">
+</div>
+<select id="gameOsFilter" class="filter-dropdown">
+<option value="all">All Systems</option>
+<option value="windows">Windows</option>
+<option value="linux">Linux</option>
+<option value="macos">macOS</option>
+</select>
+</div>
+<div id="gamesList" class="grid-container">
+</div>
+</section>
+
+<section id="about" class="tab-section">
+<div class="info-block">
+<h2>Mission Intel</h2>
+<p>GlitchVault preserves the freedom of code. We index high-quality open source alternatives to proprietary software.</p>
+<div class="tech-stack">
+<div class="feature-item"><i class="fa-solid fa-ban"></i> No Ads</div>
+<div class="feature-item"><i class="fa-solid fa-user-secret"></i> No Trackers</div>
+<div class="feature-item"><i class="fa-solid fa-bolt"></i> Direct Links</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2026 GlitchVault Systems. <span class="blink">_</span></p>
+</footer>
+</div>
+
+<script src="js/data.js" defer></script>
+<script src="js/core.js" defer></script>
+</body>
+</html>
