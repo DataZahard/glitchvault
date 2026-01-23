@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /js/
+Allow: /css/
+
+# Tell Google where your sitemap is
+Sitemap: https://datazahard.github.io/glitchvault/sitemap.xml
